@@ -6,9 +6,11 @@
   box-sizing: border-box;
   border-width: 0;
   border-style: solid;
-  border-color: #e5e7eb
+  border-color: #e5e7eb00
 }
-
+*{
+  background-color: rgb(27, 26, 26);
+}
 ::before,
 ::after {
   --tw-content: '';
@@ -36,6 +38,7 @@ html {
 body {
   margin: 0;
   line-height: inherit;
+  color: white;
 }
 
 
@@ -65,7 +68,9 @@ h6 {
   font-weight: inherit;
 }
 
-
+p{
+  color: white;
+}
 
 a {
   color: inherit;
@@ -682,7 +687,7 @@ video {
   line-height: 1;
 }
 
-.text-black{
+.text-white{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
